@@ -6,7 +6,7 @@ import csv
 from PyPDF2 import PdfReader
 from openpyxl import load_workbook
 
-path_files = os.path.join(os.path.dirname(os.path.abspath(__file__)), '/Users/irina/PycharmProjects/qa_guru_3_6/files')
+path_files = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'files')
 path_resources = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'resources')
 path_zip = os.path.join(path_resources, "zip_file.zip")
 
